@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		A17650072ADA92D000A4BE1C /* MoreTechApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17650062ADA92D000A4BE1C /* MoreTechApp.swift */; };
-		A17650092ADA92D000A4BE1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17650082ADA92D000A4BE1C /* ContentView.swift */; };
 		A176500B2ADA92D200A4BE1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A176500A2ADA92D200A4BE1C /* Assets.xcassets */; };
 		A176500E2ADA92D200A4BE1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A176500D2ADA92D200A4BE1C /* Preview Assets.xcassets */; };
 		A17650182ADA92D300A4BE1C /* MoreTechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17650172ADA92D300A4BE1C /* MoreTechTests.swift */; };
 		A17650222ADA92D300A4BE1C /* MoreTechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17650212ADA92D300A4BE1C /* MoreTechUITests.swift */; };
 		A17650242ADA92D300A4BE1C /* MoreTechUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17650232ADA92D300A4BE1C /* MoreTechUITestsLaunchTests.swift */; };
+		A17650382ADA937400A4BE1C /* MainFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17650352ADA937400A4BE1C /* MainFactory.swift */; };
+		A17650392ADA937400A4BE1C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17650362ADA937400A4BE1C /* MainView.swift */; };
+		A176503A2ADA937400A4BE1C /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17650372ADA937400A4BE1C /* MainViewModel.swift */; };
+		A176503F2ADA938200A4BE1C /* MapFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A176503C2ADA938200A4BE1C /* MapFactory.swift */; };
+		A17650402ADA938200A4BE1C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A176503D2ADA938200A4BE1C /* MapView.swift */; };
+		A17650412ADA938200A4BE1C /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A176503E2ADA938200A4BE1C /* MapViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 /* Begin PBXFileReference section */
 		A17650032ADA92D000A4BE1C /* MoreTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoreTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17650062ADA92D000A4BE1C /* MoreTechApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTechApp.swift; sourceTree = "<group>"; };
-		A17650082ADA92D000A4BE1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A176500A2ADA92D200A4BE1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A176500D2ADA92D200A4BE1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A17650132ADA92D300A4BE1C /* MoreTechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoreTechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,12 @@
 		A176501D2ADA92D300A4BE1C /* MoreTechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoreTechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17650212ADA92D300A4BE1C /* MoreTechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTechUITests.swift; sourceTree = "<group>"; };
 		A17650232ADA92D300A4BE1C /* MoreTechUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTechUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A17650352ADA937400A4BE1C /* MainFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainFactory.swift; sourceTree = "<group>"; };
+		A17650362ADA937400A4BE1C /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A17650372ADA937400A4BE1C /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		A176503C2ADA938200A4BE1C /* MapFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapFactory.swift; sourceTree = "<group>"; };
+		A176503D2ADA938200A4BE1C /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A176503E2ADA938200A4BE1C /* MapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +104,9 @@
 		A17650052ADA92D000A4BE1C /* MoreTech */ = {
 			isa = PBXGroup;
 			children = (
+				A176503B2ADA937900A4BE1C /* Map */,
+				A17650342ADA933B00A4BE1C /* Main */,
 				A17650062ADA92D000A4BE1C /* MoreTechApp.swift */,
-				A17650082ADA92D000A4BE1C /* ContentView.swift */,
 				A176500A2ADA92D200A4BE1C /* Assets.xcassets */,
 				A176500C2ADA92D200A4BE1C /* Preview Content */,
 			);
@@ -125,6 +136,26 @@
 				A17650232ADA92D300A4BE1C /* MoreTechUITestsLaunchTests.swift */,
 			);
 			path = MoreTechUITests;
+			sourceTree = "<group>";
+		};
+		A17650342ADA933B00A4BE1C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A17650352ADA937400A4BE1C /* MainFactory.swift */,
+				A17650362ADA937400A4BE1C /* MainView.swift */,
+				A17650372ADA937400A4BE1C /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A176503B2ADA937900A4BE1C /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				A176503C2ADA938200A4BE1C /* MapFactory.swift */,
+				A176503D2ADA938200A4BE1C /* MapView.swift */,
+				A176503E2ADA938200A4BE1C /* MapViewModel.swift */,
+			);
+			path = Map;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +288,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A17650092ADA92D000A4BE1C /* ContentView.swift in Sources */,
+				A17650402ADA938200A4BE1C /* MapView.swift in Sources */,
+				A176503A2ADA937400A4BE1C /* MainViewModel.swift in Sources */,
+				A17650392ADA937400A4BE1C /* MainView.swift in Sources */,
+				A176503F2ADA938200A4BE1C /* MapFactory.swift in Sources */,
+				A17650382ADA937400A4BE1C /* MainFactory.swift in Sources */,
 				A17650072ADA92D000A4BE1C /* MoreTechApp.swift in Sources */,
+				A17650412ADA938200A4BE1C /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

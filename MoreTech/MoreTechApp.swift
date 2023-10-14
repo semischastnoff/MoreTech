@@ -11,7 +11,7 @@ import SwiftUI
 struct MoreTechApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainFactory.make()
         }
     }
 }
